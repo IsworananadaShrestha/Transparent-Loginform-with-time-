@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name ="viewpoet" content="width=device-with,initial-scale=1.0">
+	<teitle>Transperent Login Form With time</title>
+	<link rel="stylesheet" href="stylee.css">
+	</head>
+<body>
+ 
+
+<form action=""class="form">
+
+	<h1>LOGIN</h1>
+	<input type="email" name="email" class="box" placeholder="Enter Username">
+	<input type="password" name="password" class="box" placeholder="Enter Password">
+	<input type="password" name="password" class="box" placeholder="ReEnter Password">
+	<input type="submit" value="LOGIN" id="submit">
+	<div class="clock" id="clock"></div>
+</form>
+<script>
+	setInterval(()=>{
+	let date = new Date()
+	let clock = document.getElementById('clock')
+	clock.innerHTML = 
+		date.getHours() + ":"+
+		date.getMinutes() +":"+
+		date.getSeconds()
+	}, 1000);
+</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
